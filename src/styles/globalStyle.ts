@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         outline: none;
         padding: 0;
         margin: 0;
-        background-color: #FFC6C9;
+        background-color: #181818;
+        color:#f5f5f5;
     } 
 `;
