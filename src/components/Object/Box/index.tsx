@@ -10,9 +10,10 @@ type BoxType = {
     width:string,
     height:string,
     clip:string,
+    minwidth:string,
 };
 
-const Box: React.FC<BoxType> = ({bgcolor,rotate,width,height,clip}) =>{
+const Box: React.FC<BoxType> = ({bgcolor,rotate,width,height,clip,minwidth}) =>{
 
     return(
         <BoxContainer 
@@ -21,6 +22,7 @@ const Box: React.FC<BoxType> = ({bgcolor,rotate,width,height,clip}) =>{
             width={width}
             height={height}
             clip={clip}
+            minwidth={minwidth}
         />
     )
 }

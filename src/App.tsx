@@ -18,8 +18,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>  {/* https://velog.io/@soryeongk/ReactRouterDomV6 참고 */}
 
-        </Routes>
 
+        </Routes>
         <Footer/>
       </Container> 
     </BrowserRouter>
@@ -27,7 +27,8 @@ function App() {
 }
 
 const Container = styled.div`
-
+  display:flex;
+  flex-direction:column;
 `;
 
 export default App;

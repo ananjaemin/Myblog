@@ -11,7 +11,7 @@ type HeaderTitleType = {
 const HeaderTitle: React.FC<HeaderTitleType> = ({Text,width}) =>{
     return(
         <HeaderTitleBox width={width}>
-            <Title>
+            <Title href="/">
                 {Text}
             </Title>
             <Box 
@@ -20,6 +20,7 @@ const HeaderTitle: React.FC<HeaderTitleType> = ({Text,width}) =>{
                 width="150px" 
                 height="100%" 
                 clip={"clip-path: polygon(60% 0, 100% 0, 40% 100%, 0% 100%);"}
+                minwidth={"auto"}
             />
         </HeaderTitleBox>
     )
@@ -38,7 +39,16 @@ const HeaderTitleBox = styled.div<HeaderTitleBoxType>`
     justify-content:center;
 `;
 
-const Title = styled.h1`
+const Title = styled.a`
+  display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color:#f5f5f5;
+    text-decoration: none;
     position:absolute;
 `;
 
