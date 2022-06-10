@@ -1,19 +1,27 @@
 import React from "react";
-//여기서부터 styles불러들이기
+import {
+    BoxContainer,
+
+} from './styles'
 
 type BoxType = {
     bgcolor:string,
     rotate:string,
     width:string,
     height:string,
+    clip:string,
 };
 
-const Box: React.FC<BoxType> = ({bgcolor,rotate,width,height}) =>{
+const Box: React.FC<BoxType> = ({bgcolor,rotate,width,height,clip}) =>{
 
     return(
-        <>
-        
-        </>
+        <BoxContainer 
+            backgorund={bgcolor}
+            rotate={rotate}
+            width={width}
+            height={height}
+            clip={clip}
+        />
     )
 }
 
