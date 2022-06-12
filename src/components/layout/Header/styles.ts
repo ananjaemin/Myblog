@@ -5,8 +5,8 @@ type HeaderContainerType = {
 };
 
 type HeaderPositionBoxType = {
-    width: string
-    leftrightmargin: string,
+    width: string,
+    justify: string,
 }
 
 export const HeaderContainer = styled.header<HeaderContainerType>`
@@ -24,7 +24,7 @@ export const HeaderPositionBox = styled.div<HeaderPositionBoxType>`
     height:100%;
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
-    margin-left:${(props) => props.leftrightmargin};
-    margin-right:${(props) => props.leftrightmargin};
+    justify-content:${(props)=>props.justify};
+    align-items:center;
+    min-width:auto;
 `;

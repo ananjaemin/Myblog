@@ -31,7 +31,6 @@ type HeaderTitleBoxType = {
 };
 
 const HeaderTitleBox = styled.div<HeaderTitleBoxType>`
-    overflow:hidden;
     width:${(props)=>props.width};
     height:100%;
     display:flex;
@@ -40,12 +39,7 @@ const HeaderTitleBox = styled.div<HeaderTitleBoxType>`
 `;
 
 const Title = styled.a`
-  display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 2rem;
     font-weight: bold;
     color:#f5f5f5;
     text-decoration: none;

@@ -11,7 +11,7 @@ import {
 const HeaderNavbar: React.FC = () =>{
     return(
         <NavbarContainer>
-            <HeaderNav leftmargin={"5px"} rightmargin={"5px"} >
+            <HeaderNav>
                 <LinkA 
                     href={"/"} 
                     size={"14px"} 
@@ -20,7 +20,7 @@ const HeaderNavbar: React.FC = () =>{
                     color={"rgba(255,255,255,0.8)"}    
                 />
             </HeaderNav>
-            <HeaderNav leftmargin={"5px"} rightmargin={"20px"}>
+            <HeaderNav>
                 <LinkA 
                     href={"/"} 
                     size={"14px"} 

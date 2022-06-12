@@ -16,7 +16,6 @@ export const BoxContainer = styled.div<BoxContainerType>`
     height:${(props) => props.height};
     ${(props)=>props.clip} 
     min-width:${(props) => props.minwidth};
-    position:relative;
+
     z-index:-1;
-    top:0px;
 `;
