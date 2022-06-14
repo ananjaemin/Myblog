@@ -15,7 +15,7 @@ const HeaderTitle: React.FC<HeaderTitleType> = ({Text,width}) =>{
                 {Text}
             </Title>
             <Box 
-                bgcolor="#005dcc" 
+                bgcolor="linear-gradient(315deg, #2a2a72 0%, #005dcc 74%);" 
                 rotate="" 
                 width="150px" 
                 height="100%" 
@@ -40,7 +40,7 @@ const HeaderTitleBox = styled.div<HeaderTitleBoxType>`
 `;
 
 const Title = styled.a`
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
     color:#f5f5f5;
     text-decoration: none;

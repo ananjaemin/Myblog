@@ -7,7 +7,6 @@ import {
 
 } from "./styles";
 
-import Card from "components/Card";
 
 const Home: React.FC = () =>{
     return(
@@ -18,7 +17,7 @@ const Home: React.FC = () =>{
 
                     </HomeContent>
                     <HomeContent>
-                        <Card />
+
                     </HomeContent>
                 </HomeBox>
             </HomeSection>
