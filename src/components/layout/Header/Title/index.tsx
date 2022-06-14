@@ -15,7 +15,7 @@ const HeaderTitle: React.FC<HeaderTitleType> = ({Text,width}) =>{
                 {Text}
             </Title>
             <Box 
-                bgcolor="linear-gradient(315deg, #2a2a72 0%, #005dcc 74%);" 
+                bgcolor="linear-gradient(315deg, #2a2a72 0%, #005dcc 60%);" 
                 rotate="" 
                 width="150px" 
                 height="100%" 
