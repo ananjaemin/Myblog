@@ -21,6 +21,7 @@ const HeaderTitle: React.FC<HeaderTitleType> = ({Text,width}) =>{
                 height="100%" 
                 clip={"clip-path: polygon(60% 0, 100% 0, 40% 100%, 0% 100%);"}
                 minwidth={"auto"}
+                borderradius={"0"}
             />
         </HeaderTitleBox>
     )

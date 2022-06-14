@@ -3,17 +3,23 @@ import {
     HomeContainer,
     HomeSection,
     HomeBox,
-
+    HomeContent,
 
 } from "./styles";
+
+import Card from "components/Card";
 
 const Home: React.FC = () =>{
     return(
         <HomeContainer>
             <HomeSection>
                 <HomeBox>
-                    <div>d</div>
-                    <div>d</div>
+                    <HomeContent>
+
+                    </HomeContent>
+                    <HomeContent>
+                        <Card />
+                    </HomeContent>
                 </HomeBox>
             </HomeSection>
         </HomeContainer>

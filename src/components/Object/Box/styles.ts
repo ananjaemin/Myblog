@@ -7,6 +7,7 @@ type BoxContainerType = {
     height:string,
     clip:string,
     minwidth:string,
+    borderradius:string,
 };  
 
 export const BoxContainer = styled.div<BoxContainerType>`
@@ -16,6 +17,6 @@ export const BoxContainer = styled.div<BoxContainerType>`
     height:${(props) => props.height};
     ${(props)=>props.clip} 
     min-width:${(props) => props.minwidth};
-
+    border-radius:${(props)=>props.borderradius};
     z-index:-1;
 `;
