@@ -26,5 +26,6 @@ export const GlobalStyle = createGlobalStyle`
         --color__sub:#005dcc;
         --color__sub2:#2a2a72;
         --color__text:#f5f5f5;
+        --color__text2:#000000;
     }
 `;
