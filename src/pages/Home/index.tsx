@@ -1,8 +1,6 @@
 import React from "react";
 import { 
     HomeContainer,
-    HomeSection,
-
 
 } from "./styles";
 
@@ -10,9 +8,7 @@ import {
 const Home: React.FC = () =>{
     return(
         <HomeContainer>
-            <HomeSection>
-                
-            </HomeSection>
+            
         </HomeContainer>
     )
 };

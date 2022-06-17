@@ -16,7 +16,13 @@ export const HeaderContainer = styled.header<HeaderContainerType>`
     align-items:center;
     justify-content:center;
     position:fixed;
-    background: rgba(24, 24, 24, 0.5);
+    backdrop-filter: blur(10px);
+`;
+
+export const Container = styled.div`
+    width:100%;
+    display:flex;
+    flex-direction:column;
 `;
 
 export const HeaderPositionBox = styled.div<HeaderPositionBoxType>`
