@@ -16,13 +16,17 @@ export const HeaderContainer = styled.header<HeaderContainerType>`
     align-items:center;
     justify-content:center;
     position:fixed;
+    background-color: var(--color__main);
     backdrop-filter: blur(10px);
+    box-shadow: 0 5px 10px -3px var(--color__main);
 `;
 
 export const Container = styled.div`
     width:100%;
     display:flex;
     flex-direction:column;
+    background-color:var(--color__main);
+    box-shadow: 0 5px 10px -3px var(--color__main);
 `;
 
 export const HeaderPositionBox = styled.div<HeaderPositionBoxType>`

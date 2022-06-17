@@ -7,9 +7,19 @@ export const GlobalStyle = createGlobalStyle`
         outline: none;
         padding: 0;
         margin: 0;
-        background-color: var(--color__main);
+        background-color: #f5f5f5;
         color:#f5f5f5;
     } 
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    body::-webkit-scrollbar-track{
+        width: 5px;
+        height: 8px;
+        background-color: #fff;
+    }
 
     :root{
         --color__main:#181818;

@@ -1,5 +1,6 @@
 import React from "react";
 import { 
+    HomeBox,
     HomeContainer,
 
 } from "./styles";
@@ -8,7 +9,10 @@ import {
 const Home: React.FC = () =>{
     return(
         <HomeContainer>
-            
+            <HomeBox>
+
+                
+            </HomeBox>
         </HomeContainer>
     )
 };
