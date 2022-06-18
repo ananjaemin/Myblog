@@ -2,7 +2,14 @@ import React from "react";
 import { 
     ProjectBoxContainer,
     ProjectImg,
-
+    ProjectBoxMainBody,
+    ProjectBoxMainHeader,
+    ProjectTitle,
+    Projectcategory,
+    ProjectcategoryBox,
+    ProjectAbout,
+    ProjectPositionBox,
+    ProjectDays,
 
 } from "./styles";
 
@@ -20,8 +27,20 @@ const ProjectBox: React.FC<ProjectBoxType> = ({title,about,days,category,img,Lin
     return(
         <ProjectBoxContainer href={Link}>
            <ProjectImg Image={"url("+process.env.PUBLIC_URL+img+")"} />
-            
-
+            <ProjectBoxMainBody>
+                <ProjectPositionBox>
+                    <ProjectBoxMainHeader>
+                        <ProjectTitle>{title}</ProjectTitle>
+                        <ProjectcategoryBox>
+                            <Projectcategory>
+                                {category}
+                            </Projectcategory>
+                        </ProjectcategoryBox>
+                    </ProjectBoxMainHeader>
+                    <ProjectAbout>{about}</ProjectAbout>
+                </ProjectPositionBox>
+                <ProjectDays>{days}</ProjectDays>
+            </ProjectBoxMainBody>            
         </ProjectBoxContainer>
     )
 }
