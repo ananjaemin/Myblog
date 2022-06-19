@@ -8,8 +8,8 @@ export const ProjectBoxContainer = styled.a`
     text-decoration: none;
     width:280px;
     min-width:280px;
-    height:320px;
-    min-height:320px;
+    height:310px;
+    min-height:310px;
     margin:20px;
     display:flex;
     align-items:center;

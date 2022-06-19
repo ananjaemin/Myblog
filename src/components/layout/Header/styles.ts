@@ -16,6 +16,7 @@ export const HeaderContainer = styled.header<HeaderContainerType>`
     align-items:center;
     justify-content:center;
     position:fixed;
+    z-index:9999;
     background-color: var(--color__main);
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 10px -3px var(--color__main);
