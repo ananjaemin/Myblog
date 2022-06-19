@@ -16,6 +16,55 @@ const Project: React.FC = () =>{
                 img="/ProjectImg/img.png"
                 Link="pages/write/test/test"
             />
+            <ProjectBox
+                title="Test"
+                about="Test 페이지입니다."
+                days="2022-06-18"
+                category="Test"
+                img="/ProjectImg/img.png"
+                Link="pages/write/test/test"
+            />
+            <ProjectBox
+                title="Test"
+                about="Test 페이지입니다."
+                days="2022-06-18"
+                category="Test"
+                img="/ProjectImg/img.png"
+                Link="pages/write/test/test"
+            />
+            <ProjectBox
+                title="Test"
+                about="Test 페이지입니다."
+                days="2022-06-18"
+                category="Test"
+                img="/ProjectImg/img.png"
+                Link="pages/write/test/test"
+            />
+            <ProjectBox
+                title="Test"
+                about="Test 페이지입니다."
+                days="2022-06-18"
+                category="Test"
+                img="/ProjectImg/img.png"
+                Link="pages/write/test/test"
+            />
+            <ProjectBox
+                title="Test"
+                about="Test 페이지입니다."
+                days="2022-06-18"
+                category="Test"
+                img="/ProjectImg/img.png"
+                Link="pages/write/test/test"
+            />
+            <ProjectBox
+                title="Test"
+                about="Test 페이지입니다."
+                days="2022-06-18"
+                category="Test"
+                img="/ProjectImg/img.png"
+                Link="pages/write/test/test"
+            />
+
 
         
         </ProjectContainer>

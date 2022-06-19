@@ -15,4 +15,12 @@ export const HeaderSectionContainer = styled.div`
 export const HeaderSectionBox = styled.div`
     width:90%;
     height:100%;
+    display:flex;
+    flex-direction:row;
+`;
+
+export const HeaderSectionMyAboutBox = styled.div`
+    width:50%;
+    height:100%;
+    display:flex;
 `;
