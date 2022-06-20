@@ -8,6 +8,7 @@ import {
 } from "./styles";
 import HeaderSection from "./HeaderSection";
 import Project from "./Project";
+import Footer from "components/layout/Footer";
 
 const Home: React.FC = () =>{
     return(
@@ -19,11 +20,10 @@ const Home: React.FC = () =>{
                         Project
                     </Title>
                     <Project/>
-
                 </HomeBox>
             </HomeContainer>
     
-
+            <Footer/>
         </Container>
     )
 };

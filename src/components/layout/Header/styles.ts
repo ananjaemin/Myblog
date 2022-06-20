@@ -19,7 +19,7 @@ export const HeaderContainer = styled.header<HeaderContainerType>`
     z-index:9999;
     background-color: var(--color__main);
     backdrop-filter: blur(10px);
-    /* box-shadow: 0 5px 10px -3px var(--color__main); */
+    box-shadow: 0 5px 10px -3px var(--color__main);
 `;
 
 export const HeaderPositionBox = styled.div<HeaderPositionBoxType>`

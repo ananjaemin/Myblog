@@ -6,10 +6,7 @@ const AboutHeader: React.FC = () =>{
     return(
         <AboutHeaderBox>
             <AboutTitle>
-                안 재민
-                <AboutTitleSub>
-                    &nbsp; ( Critical )
-                </AboutTitleSub>
+                My name is <br/> <AboutTitleName>Anjaemin</AboutTitleName>
             </AboutTitle>
         </AboutHeaderBox>
     )
@@ -21,17 +18,17 @@ export const AboutHeaderBox = styled.div`
 
 export const AboutTitle = styled.div`
     color:var(--color__text);
-    font-size:1.9rem;
-    font-weight:bold;
+    font-size:3rem;
     display:flex;
+    font-weight:bold;
     flex-direction:row;
-
+    display:flex;
+    flex-direction:column;
+    white-space:nowrap;
 `;
 
-export const AboutTitleSub = styled.div`
-    font-size:1.7rem;
-    display:flex;
-    align-items:flex-end;
+export const AboutTitleName = styled(AboutTitle)`
+    color:linear-gradient(315deg, #2a2a72 0%, #005dcc 74%);
 `;
 
 export default AboutHeader;
