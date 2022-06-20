@@ -11,7 +11,7 @@ const Header: React.FC = () =>{
     return(
         <>    
             <HeaderContainer height={"3.5rem"}>
-                <HeaderPositionBox width={"95%"} justify={"space-between"}>
+                <HeaderPositionBox width={"92%"} justify={"space-between"}>
                     <HeaderTitle Text={"Critical"} width={"auto"}/> {/* 수정 */}
                     <HeaderPositionBox width={"auto"} justify={"space-between"}> {/* Profile 추가예정 */}
                         <HeaderNavbar />

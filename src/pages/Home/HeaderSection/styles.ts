@@ -10,10 +10,13 @@ export const HeaderSectionContainer = styled.div`
     justify-content:center;
     align-items:center;
     box-shadow: 0 5px 10px -3px var(--color__main);
+    z-index:1;
 `;
 
 export const HeaderSectionBox = styled.div`
-    width:90%;
+
+
+    width:92%;
     height:100%;
     display:flex;
     flex-direction:row;
@@ -25,4 +28,5 @@ export const HeaderSectionMyAboutBox = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+    z-index:10;
 `;

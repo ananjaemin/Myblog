@@ -14,14 +14,16 @@ const HeaderTitle: React.FC<HeaderTitleType> = ({Text,width}) =>{
             <Title href="/">
                 {Text}
             </Title>
+            {/* linear-gradient(315deg, #2a2a72 0%, #005dcc 74%); */}
             <Box 
-                bgcolor="linear-gradient(315deg, #2a2a72 0%, #005dcc 74%);" 
+                bgcolor="#005dcc" 
                 rotate="" 
                 width="150px" 
                 height="100%" 
                 clip={"clip-path: polygon(60% 0, 100% 0, 40% 100%, 0% 100%);"}
                 minwidth={"auto"}
                 borderradius={"0"}
+                position={"static"}
             />
         </HeaderTitleBox>
     )
@@ -44,6 +46,7 @@ const Title = styled.a`
     font-weight: bold;
     color:#f5f5f5;
     text-decoration: none;
+    z-index:1;
     position:absolute;
 `;
 
