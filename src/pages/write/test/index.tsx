@@ -1,16 +1,12 @@
 import React from "react";
-
+import WriteGlobal from "../indexglobal";
 
 const TestPage: React.FC = () =>{
     return(
-        <>
-            테스트페이지입니다
-            테스트페이지입니다
-            테스트페이지입니다
-            테스트페이지입니다
-            테스트페이지입니다
-            테스트페이지입니다
-        </>
+        <WriteGlobal>
+
+
+        </WriteGlobal>
     )
 }
 
